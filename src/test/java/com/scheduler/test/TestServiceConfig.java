@@ -11,7 +11,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 public class TestServiceConfig {
 
     @Bean
-    ICalendarHelper getSampleCoreComponent() {
+    ICalendarHelper getCalendarHelper() {
         return new GoogleCalendarHelper();
     }
 
